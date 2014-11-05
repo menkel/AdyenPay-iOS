@@ -1,0 +1,1 @@
+../../../AdyenPay/AdyenPay.framework/Versions/A/Headers/ADYPaymentRequest.h
