@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
     :git => "https://github.com/adyenpayments/AdyenPay-iOS.git", :tag => s.version.to_s }
 
   s.platform = :ios, '8.1'
-  s.ios.platform             = :ios, '8.1'
-  s.ios.preserve_paths       = 'AdyenPay.framework'
-  s.ios.public_header_files  = 'AdyenPay.framework/Versions/A/Headers/*.h'
+  s.platform             = :ios, '8.1'
+  s.preserve_paths       = 'AdyenPay.framework'
+  s.public_header_files  = 'AdyenPay.framework/Versions/A/Headers/*.h'
   # s.ios.resource             = 'AdyenPay.framework/Versions/A/Resources/**/*'
-  s.ios.vendored_frameworks  = 'AdyenPay.framework'
+  s.vendored_frameworks  = 'AdyenPay.framework'
 end
